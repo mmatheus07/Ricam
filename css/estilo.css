@@ -1,0 +1,396 @@
+body {
+  background-image: url("../img/textura-logo.jpg");
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+header img {
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+div.banner {
+  padding: 139px 30px 0 30px;
+  margin: 0;
+  background-image: url("../img/banner-home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 354px;
+}
+
+div.blue-box {
+  background-color: rgba(0, 52, 98, 0.8);
+  border: 2px solid #ffffff;
+  max-width: 603px;
+}
+
+.blue-box h4 {
+  font-family: "Lato";
+  font-weight: bold;
+  color: #ffffff;
+  margin: 12px;
+  text-align: center;
+}
+
+.button-header {
+  text-align: right;
+}
+
+img.client-icon {
+margin-right: 3px;
+}
+
+div.line {
+  height: 5px;
+}
+
+div.line .blue {
+  background-color: #003462;
+  height: 5px;
+  width: 50%;
+  display: inline-block;
+}
+
+div.line .green {
+  background-color: #7ab45b;
+  height: 5px;
+  width: 50%;
+  display: inline-block;
+}
+
+div.back-blue {
+  background-color: rgba(0, 52, 98, 0.8);
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  position: relative;
+}
+
+div.menu h4 {
+  margin: 18px 0 18px 15px;
+  color: #ffffff;
+  display: inline-block;
+}
+
+div.p-lanca {
+  background-image: url("../img/box-pre-lancamentos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+}
+
+div.lanca {
+  background-image: url("../img/box-lancamentos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+}
+
+div.em-const {
+  background-image: url("../img/box-em-construcao.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+}
+
+div.entreg {
+  background-image: url("../img/box-entregues.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+}
+
+div.white-line {
+  height: 2px;
+  background-color: #ffffff;
+}
+
+div.actions {
+  background-color: #ffffff;
+  margin-top: 23px;
+  padding-bottom: 15px;
+}
+
+div.blue-button {
+  background-color: #003462;
+  width: 50%;
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+}
+
+div.green-button {
+  background-color: #7ab45b;
+  width: 50%;
+  display: inline-block;
+  float: right;
+  padding: 10px 0;
+  text-align: center;
+}
+
+div.shadow {
+  -webkit-box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.55);
+  box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.55);
+}
+
+div.institutional {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+
+div.institutional p {
+  font-weight: bold;
+  font-size: 9pt;
+  color: #003462;
+  text-align: center;
+  font-family: "Lato";
+  max-height: 76px;
+  max-width: 95px;
+}
+
+.t-one {
+  border-right: 1px solid #000000;
+}
+
+footer {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+div.itens-bottom {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  background-color: #edeeef;
+  height: 235px;
+  position: relative;
+}
+
+div.itens-bottom img {
+  width: 66px;
+  height: 93px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -46.5px;
+  margin-left: -33px;
+}
+
+div.list-links {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  background-color: #edeeef;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+li.list-blue {
+  color: #003462;
+}
+
+footer ul {
+  list-style-type:none;
+  font-family: "Lato";
+  margin-bottom: 0;
+}
+
+li.list-pad {
+  padding-bottom:5px;
+}
+
+div.avenue {
+  display: inline-block;
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+}
+
+div.avenue img {
+  display: inline-block;
+  float: left;
+  margin: 10px 5px 10px 0;
+}
+
+div.avenue .container {
+  display: inline-block;
+  text-align: center;
+}
+
+div.avenue p {
+  display: inline-block;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: bold;
+  color: #003462;
+  float: right;
+  margin: 10px 0 10px 2px;
+}
+
+.button-plus {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: "Lato";
+  color: #ffffff;
+  font-size: 0px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: url(../img/icon-mais.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+  height: 22px;
+  width: 22px;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -11px;
+  right: 15px;
+}
+
+.button-plus: {
+  text-decoration: none;
+}
+
+.button-plus:hover {
+  text-decoration: none;
+}
+
+ul.menu-vertical {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #ffffff;
+  font-family: "Lato";
+  font-size: 16px;
+  text-align: center;
+  top:0;
+  display: none;
+}
+
+ul.menu-vertical li {
+  border-bottom: 1px solid #7ab45b;
+}
+
+ul.menu-vertical li a {
+  display: block;
+  color: #000;
+  padding: 8px 0 8px 16px;
+  text-decoration: none;
+}
+
+ul.menu-vertical li a:hover {
+  color: #7ab45b;
+  font-weight: bold;
+}
+
+div.menu-horizontal, .line-one {
+
+}
+
+div.empreendimentos img.feature {
+  max-width: 418px;
+  min-height: 156px;
+  max-height: 273px;
+}
+
+div.empreendimentos {
+  background-color: #ffffff;
+  padding-top: 15px;
+}
+
+div.empreendimentos p {
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 13px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+td.separe img {
+  padding: 0;
+}
+
+.table tbody tr td {
+  padding: 0px;
+  border: 0;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+div.green-border {
+  border: 2px solid #7ab45b;
+  max-width: 418px;
+  position: relative;
+  -webkit-box-shadow: 1px 13px 77px -21px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 13px 77px -21px rgba(0,0,0,0.75);
+  box-shadow: 1px 13px 77px -21px rgba(0,0,0,0.75);
+}
+
+.green-description {
+  margin: 0;
+}
+
+.more {
+  background-color: rgba(0, 52, 98, 0.8);
+  border: 2px solid #ffffff;
+  max-width: 106px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-top: -30px;
+  margin-left: -53px;
+}
+
+.more h5 {
+   font-family: "Lato";
+   color: #ffffff;
+   margin: 8px 12px;
+   text-align: center;
+ }
+
+div.second-ap {
+  margin-top: 30px;
+}
+
+div.ver-mais {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+div.emp-pl {
+  display: none;
+}
+
+div.emp-lanca {
+  display: none;
+}
+
+div.emp-ec {
+  display: none;
+}
+
+div.emp-ent {
+  display: none;
+}
